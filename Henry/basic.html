@@ -10,22 +10,36 @@
 
 <body>
     <!-- Basic: Exercise 1 -->
-    <div>
-        <br />
-        <input type="text" id="firstname" placeholder="firstname" /> <br />
-        <br />
-        <input type="text" id="lastname" placeholder="lastname" /> <br />
-        <br />
-        <input type="number" id="age" placeholder="age" />
-        <br />
-        <br />
-        <button type="submit" id="btn">Confirm</button>
+    <div id="div">
+        <div>
+            <br />
+            <input type="text" id="firstname" placeholder="firstname" /> <br />
+            <br />
+            <input type="text" id="lastname" placeholder="lastname" /> <br />
+            <br />
+            <input type="number" id="age" placeholder="age" />
+            <br />
+            <br />
+            <button type="submit" id="btn">Confirm</button>
+        </div>
+        <br>
+        <br>
+
+        <div class="printdata"></div>
+        <div class="printdata"></div>
+        <div class="printdata"></div>
+
+        <!-- BASIC 2 -->
+        <select id="profession" style="width: 20vw">
+        <option value="none"></option>
+        <option value="it">IT</option>
+        <option value="hospitality">Hospitality</option>
+        <option value="actor">Actor</option>
+    </select>
     </div>
-    <br>
-    <br>
-    <div class="printdata"></div>
-    <div class="printdata"></div>
-    <div class="printdata"></div>
+    <button type="submit" id="select_job">Select Job</button>
+
+
 
     <!-- javascript -->
     <script src="basic_JS_day-4.js"></script>
